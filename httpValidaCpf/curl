@@ -1,0 +1,7 @@
+curl --request POST \
+  --url http://localhost:7071/api/fnValidaCPF \
+  --header 'Content-Type: application/json' \
+  --header 'User-Agent: insomnia/10.3.0' \
+  --data '{
+	"cpf": "14785236922"
+}'
